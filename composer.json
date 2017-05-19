@@ -24,6 +24,10 @@
         "defuse/php-encryption": "2.0.x"
     },
 
+    "suggest": {
+        "silverstripe/secureassets": "Install this if you need to encrypt asset files. encryptatrest provides an extension to secureassets which handles file encryption and decryption. secureassets handles the download and user authentication processes."
+    },
+
     "extra": {
         "installer-name": "encryptatrest"
     }

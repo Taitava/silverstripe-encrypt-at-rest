@@ -6,4 +6,13 @@ EncryptDataObjectFieldsExtension:
     - EncryptDataObject
 File:
   allowed_extensions:
-    ["enc"]
+    - enc
+
+---
+Only:
+  classexists: 'SecureFileController'
+---
+#Defined only if the secureassets module is installed:
+SecureFileController:
+  extensions:
+    - EncryptedSecureFileControllerExtension
