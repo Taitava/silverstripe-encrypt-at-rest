@@ -1,5 +1,5 @@
 {
-    "name": "madmatt/silverstripe-encrypt-at-rest",
+    "name": "taitava/silverstripe-encrypt-at-rest",
     "description": "Enable encryption of data at rest (in database)",
     "version": "0.0.1",
     "type": "silverstripe-module",
