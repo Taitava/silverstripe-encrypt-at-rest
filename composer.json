@@ -1,7 +1,6 @@
 {
     "name": "taitava/silverstripe-encrypt-at-rest",
     "description": "Enable encryption of data at rest (in database)",
-    "version": "0.0.1",
     "type": "silverstripe-module",
     "keywords": [ "silverstripe", "encryption", "decryption", "encrypt-at-rest" ],
     "homepage": "https://github.com/madmatt/silverstripe-encrypt-at-rest",
