@@ -19,7 +19,7 @@
     },
 
     "require": {
-        "silverstripe/framework": "3.4.*",
+        "silverstripe/framework": ">=3.4.0",
         "defuse/php-encryption": "2.0.x"
     },
 
