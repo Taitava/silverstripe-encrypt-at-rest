@@ -88,7 +88,7 @@ class EncryptDataObjectFieldsExtension extends DataExtension
         if (in_array($this->owner->ClassName, $classes)) {
             $fields = Config::inst()->get($this->owner->ClassName, 'db', Config::UNINHERITED);
             foreach ($fields as $fieldName => $fieldType) {
-                $reflector = Object::create_from_string($fieldType, '')->is_encrypted;
+                $reflector = SS_Object::create_from_string($fieldType, '')->is_encrypted;
                 if ($reflector === true) {
                     $callFunction = strtolower('get' . $fieldName);
                     self::$db_mapping[$callFunction] = array($fieldName, $fieldType);
